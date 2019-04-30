@@ -13,7 +13,10 @@ namespace TpHeritage.Classes
         //Propriété en lecture seul sans set
         public string Titre { get => titre; }
         public int Numero { get => numero; }
+        public Media()
+        {
 
+        }
         public Media(string t)
         {
             //attribut car propriété en lecture seul
