@@ -9,10 +9,13 @@ namespace TpHeritage.Classes
         private string titre;
         private int numero;
         private static int compteur = 0;
+        private bool dispo = true;
 
         //Propriété en lecture seul sans set
         public string Titre { get => titre; }
         public int Numero { get => numero; }
+        public bool Dispo { get => dispo; set => dispo = value; }
+
         public Media()
         {
 
